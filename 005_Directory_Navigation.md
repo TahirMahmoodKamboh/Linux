@@ -33,6 +33,11 @@
 
 ---
 
+***example output***
+
+<img width="751" height="54" alt="image" src="https://github.com/user-attachments/assets/296d0d65-b5be-4a27-9126-55b9ba24258a" />
+
+
 ## 3. Absolute vs Relative Paths
 
 | Type | Description | Example |
