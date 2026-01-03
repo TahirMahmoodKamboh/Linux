@@ -65,11 +65,6 @@ If you want, I can:
 * Add **examples per command (one-liners)**
 * Provide a **print-friendly version**
 
-Just let me know your preference.
-
-
-Below are **hands-on labs for Chapter 5: Basic Linux Commands**. These labs are designed to be **practical, command-driven, and verifiable**, suitable for beginners while still aligning with real server usage.
-
 ---
 
 # Chapter 5 – Hands-On Labs
