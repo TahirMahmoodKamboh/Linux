@@ -5,6 +5,7 @@ Linux is open source, anyone can make a distribution and modify it for a given p
 We can interact with Linux OS using Linux GUI and CLI.
 
 ****Linux Components****
+
 **Kernel:**
 Provides the core functionality of the operating system
 
