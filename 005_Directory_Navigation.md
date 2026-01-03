@@ -1,4 +1,3 @@
-```markdown
 # Chapter 5.1 – Directory Navigation
 
 ## 1. `pwd` – Print Working Directory
@@ -92,23 +91,3 @@
 - `ls -ld` is useful to check **directory permissions** without listing its contents.  
 - Tab auto-completion and `clear` improve terminal efficiency.
 ```
-
----
-
-✅ **Usage Instructions:**
-
-1. Open a text editor (VS Code, Sublime, Notepad++, or even Linux `nano`).
-2. Paste the content above.
-3. Save it as:
-
-```
-Chapter_5.1_Directory_Navigation.md
-```
-
-4. Open in **Markdown preview** or any viewer.
-
----
-
-If you want, I can **create the next chapter (5.2 File & Directory Creation) in the same `.md` format** so you can keep building your Linux basics Markdown handbook.
-
-Do you want me to do that next?
