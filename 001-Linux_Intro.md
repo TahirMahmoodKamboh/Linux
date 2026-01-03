@@ -23,18 +23,6 @@ Is stable
 Is commonly used as a server operating system
 Is also used as a desktop operating system.
 
-Perfect! Let’s create **Chapter 1 in the same Markdown style**. I’ll assume this is the **introduction to Linux / Linux Basics** chapter, so it will cover:
-
-* What is Linux
-* Linux distributions
-* Linux vs other OS
-* Linux kernel and user space
-* Basic terminal introduction
-
-# Chapter 1 – Introduction to Linux
-
-## 1.1 What is Linux?
-
 | Concept | Description | Example/Notes |
 |---------|-------------|---------------|
 | Linux | An open-source, Unix-like operating system kernel | Linux kernel version: `uname -r` |
