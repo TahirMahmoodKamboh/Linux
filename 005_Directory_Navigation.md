@@ -1,232 +1,116 @@
-Below are **focused, step-by-step hands-on labs for Chapter 5.1: Directory Navigation**. These labs are **simple, practical, and assessment-ready**, suitable for beginners and classroom delivery.
+Perfect! We can put all the **Chapter 5.1 – Directory Navigation command tables** into a **Markdown (`.md`) file** format. I’ll include **all commands (`pwd`, `ls`, `cd`) with descriptions and extended examples** in clean tables.
+
+Here’s the **ready-to-use Markdown content**:
 
 ---
 
-## **Chapter 5.1 – Directory Navigation**
+```markdown
+# Chapter 5.1 – Directory Navigation
 
-**Commands Covered:** `pwd`, `ls`, `cd`
+## 1. `pwd` – Print Working Directory
 
-**Prerequisites**
-
-* Linux system (Ubuntu or similar)
-* Terminal access
-* Logged in as a normal user
-
----
-
-## **Lab 5.1.1: Identify Current Working Directory**
-
-**Objective:** Learn how to check your current location in the filesystem.
-
-### Steps
-
-1. Open the terminal.
-2. Run the following command:
-
-```bash
-pwd
+| Command | Description | Example |
+|--------|-------------|---------|
+| `pwd`  | Displays the absolute path of the current working directory | `pwd` |
+**Example Output:**  
 ```
 
-### Expected Result
-
-* Output similar to:
-
-```text
 /home/tahir
+
 ```
 
 ---
 
-## **Lab 5.1.2: List Directory Contents**
+## 2. `ls` – List Directory Contents
 
-**Objective:** Learn to view files and directories.
-
-### Steps
-
-1. List contents of the current directory:
-
-```bash
-ls
-```
-
-2. List all files including hidden files:
-
-```bash
-ls -a
-```
-
-3. List files in long format:
-
-```bash
-ls -l
-```
-
-### Expected Result
-
-* Hidden files start with `.`
-* Permissions, owner, and size are shown in long format
+| Command | Description | Example |
+|--------|-------------|---------|
+| `ls` | Lists files and directories in the current directory | `ls` |
+| `ls -l` | Long listing with permissions, owner, size, and date | `ls -l` |
+| `ls -a` | Lists all files including hidden files | `ls -a` |
+| `ls -lh` | Long listing with human-readable sizes | `ls -lh` |
+| `ls -lt` | Sorts files by modification time | `ls -lt` |
+| `ls -lr` | Lists files in reverse order | `ls -lr` |
+| `ls -la` | Combines long listing with hidden files | `ls -la` |
+| `ls /etc` | Lists contents of another directory | `ls /etc` |
+| `ls *.conf` | Lists files matching a pattern | `ls *.conf` |
+| `ls -d */` | Lists only directories | `ls -d */` |
+| `ls -ld linux-labs` | Shows detailed info of a directory itself, not its contents | `ls -ld linux-labs` |
 
 ---
 
-## **Lab 5.1.3: Change Directory Using Absolute Path**
+## 3. Absolute vs Relative Paths
 
-**Objective:** Navigate using full paths.
-
-### Steps
-
-1. Move to the `/etc` directory:
-
-```bash
-cd /etc
-```
-
-2. Confirm your location:
-
-```bash
-pwd
-```
+| Type | Description | Example |
+|------|-------------|---------|
+| Absolute Path | Path starting from root `/` | `/var/log` |
+| Relative Path | Path relative to current directory | `../log` |
 
 ---
 
-## **Lab 5.1.4: Change Directory Using Relative Path**
+## 4. `cd` – Change Directory
 
-**Objective:** Navigate relative to current directory.
-
-### Steps
-
-1. From `/etc`, move to its parent directory:
-
-```bash
-cd ..
-```
-
-2. Verify location:
-
-```bash
-pwd
-```
+| Command | Description | Example |
+|--------|-------------|---------|
+| `cd /path` | Changes directory using an absolute path | `cd /var/log` |
+| `cd ..` | Moves to the parent directory | `cd ..` |
+| `cd ../..` | Moves up two directory levels | `cd ../..` |
+| `cd` | Changes to the home directory | `cd` |
+| `cd ~` | Explicitly changes to the home directory | `cd ~` |
+| `cd -` | Switches to the previous directory | `cd -` |
+| `cd ~/Documents` | Navigates using home shortcut | `cd ~/Documents` |
+| `cd linux-labs/nav` | Navigates using a relative path | `cd linux-labs/nav` |
+| `cd /` | Moves to the root directory | `cd /` |
 
 ---
 
-## **Lab 5.1.5: Navigate to Home Directory**
+## 5. Listing Other Directories
 
-**Objective:** Quickly return to home directory.
+| Command | Description | Example |
+|--------|-------------|---------|
+| `ls /path` | Lists contents of another directory without changing location | `ls /etc` |
+| `ls /var/log` | Lists contents of `/var/log` | `ls /var/log` |
 
-### Steps
+---
 
-1. Use shortcut to return home:
+## 6. Tab Auto-Completion
 
-```bash
-cd ~
-```
+| Feature | Description | Example |
+|--------|-------------|---------|
+| Tab completion | Automatically completes commands or paths to save typing | Type `cd /va` + [Tab] → auto-completes to `/var` |
 
-or
+---
 
-```bash
-cd
-```
+## 7. `clear` – Clear Terminal Screen
 
-2. Verify:
+| Command | Description | Example |
+|--------|-------------|---------|
+| `clear` | Clears all previous output for a clean terminal | `clear` |
 
-```bash
-pwd
+---
+
+## **Key Notes**
+
+- Use `pwd` to know your current directory.  
+- `ls` is your primary command to explore files and directories.  
+- `cd` is used for navigation – remember shortcuts like `cd ~` and `cd -`.  
+- `ls -ld` is useful to check **directory permissions** without listing its contents.  
+- Tab auto-completion and `clear` improve terminal efficiency.
 ```
 
 ---
 
-## **Lab 5.1.6: Navigate Multiple Levels**
+This `.md` file is **ready to save as `Chapter_5.1_Directory_Navigation.md`**.
 
-**Objective:** Practice multi-level navigation.
+It includes:
 
-### Steps
-
-1. Create directories:
-
-```bash
-mkdir -p linux-labs/nav
-```
-
-2. Navigate into the directory:
-
-```bash
-cd linux-labs/nav
-```
-
-3. Move back two levels:
-
-```bash
-cd ../..
-```
+* All commands (`pwd`, `ls`, `cd`)
+* Absolute and relative paths
+* Extended `ls` examples, including `ls -ld`
+* Tab completion and clear
 
 ---
 
-## **Lab 5.1.7: List Contents of Another Directory**
+If you want, I can **also create Markdown tables for Chapter 5.2 (File & Directory Creation) next**, in the **same clean format** ready to add to the same `.md` file.
 
-**Objective:** View directory contents without changing location.
-
-### Steps
-
-```bash
-ls /etc
-ls /var/log
-```
-
----
-
-## **Lab 5.1.8: Use Tab Auto-Completion**
-
-**Objective:** Improve speed and accuracy.
-
-### Steps
-
-1. Type:
-
-```bash
-cd /va
-```
-
-2. Press `Tab`
-3. Complete the command and press Enter.
-
----
-
-## **Lab 5.1.9: Clear Terminal and Review**
-
-**Objective:** Improve terminal usability.
-
-### Steps
-
-```bash
-clear
-```
-
----
-
-## **Assessment Task (Optional)**
-
-1. Navigate to `/var`
-2. List its contents in long format
-3. Return to your home directory
-
-**Expected Commands**
-
-```bash
-cd /var
-ls -l
-cd ~
-```
-
----
-
-## **Lab Outcome**
-
-After completing these labs, learners will be able to:
-
-* Identify their location in Linux filesystem
-* Navigate using absolute and relative paths
-* Efficiently list directory contents
-* Use shortcuts and tab completion
-
----
-
-
+Do you want me to do that?
