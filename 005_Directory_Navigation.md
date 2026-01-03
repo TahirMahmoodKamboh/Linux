@@ -39,6 +39,8 @@
 <img width="1327" height="116" alt="image" src="https://github.com/user-attachments/assets/2ed25340-5b5f-4dd2-bc17-6dd08550f561" />
 
 
+For detailed listing
+
 <img width="1056" height="779" alt="image" src="https://github.com/user-attachments/assets/d136692f-d675-46dd-9ca1-d0528bc8cc9c" />
 
 
