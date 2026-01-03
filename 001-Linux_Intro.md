@@ -1,4 +1,3 @@
----
 ***Linux***
 ---
 - Is an OS (Operating System)
