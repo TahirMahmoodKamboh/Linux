@@ -1,3 +1,73 @@
+Below is a **concise command-focused content outline for Chapter 5 (Basic Linux Commands)**. This is suitable for a syllabus, slide agenda, or course outline where only **what will be covered** is required.
+
+---
+
+## **Chapter 5: Basic Linux Commands – Covered Commands**
+
+### **1. Directory Navigation**
+
+* `pwd` – show current directory
+* `ls` – list files and directories
+* `cd` – change directory
+
+---
+
+### **2. File and Directory Creation**
+
+* `touch` – create empty files
+* `mkdir` – create directories
+
+---
+
+### **3. File and Directory Operations**
+
+* `cp` – copy files and directories
+* `mv` – move or rename files
+* `rm` – remove files and directories
+
+---
+
+### **4. Viewing File Contents**
+
+* `cat` – display file contents
+* `less` / `more` – paginated file viewing
+* `head` – view first lines of a file
+* `tail` – view last lines of a file
+
+---
+
+### **5. Command Help and Documentation**
+
+* `man` – command manual pages
+* `--help` option – quick command help
+
+---
+
+### **6. Command Basics**
+
+* Command syntax (command + options + arguments)
+* Using wildcards (`*`, `?`)
+* Tab auto-completion
+* Command chaining (`&&`)
+
+---
+
+### **Chapter Outcome**
+
+By the end of this chapter, learners will be able to **navigate the Linux file system and perform basic file management from the command line**.
+
+---
+
+If you want, I can:
+
+* Reduce this to a **one-slide summary**
+* Align it with **RHCSA objectives**
+* Add **examples per command (one-liners)**
+* Provide a **print-friendly version**
+
+Just let me know your preference.
+
+
 Below are **hands-on labs for Chapter 5: Basic Linux Commands**. These labs are designed to be **practical, command-driven, and verifiable**, suitable for beginners while still aligning with real server usage.
 
 ---
