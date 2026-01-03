@@ -1,5 +1,6 @@
-*** Linux ***
-
+---
+***Linux***
+---
 - Is an OS (Operating System)
 - Is open source.
 - Created in 1991.
